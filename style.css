@@ -1,0 +1,63 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .dice {
+    text-align: center;
+    display: inline-block;
+  
+  }
+  
+  body {
+    font-family: monospace;
+    overflow-y: hidden;
+  }
+  
+  h1{
+    margin: 10px;
+    font-size: 4rem;
+  }
+  
+  p {
+    font-size: 1.5rem;
+    color: red;
+  }
+
+  .play{
+    margin: 10px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+
+  .play:hover {background-color: #19ca1f}
+
+  .play:active {
+    background-color: #04AA6D;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+  img {
+    width: 80%;
+  }
+  
+  footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+  
+  }
